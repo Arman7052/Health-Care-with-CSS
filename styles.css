@@ -16,3 +16,42 @@ nav {
     justify-content: space-between;
     gap: 10px;
 }
+
+hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 109px;
+    margin-left: 204px;
+    margin-right: 163px;
+    padding-top: 20px;
+}
+
+.himg {
+    width: 450px;
+    height: 450px;
+    padding-top: 84px;
+}
+
+.heroh1 {
+    color: #000;
+    font-family: Mulish;
+    padding-top: 191px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.hbtn {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: none;
+    background: #458FF6;
+    
+}
