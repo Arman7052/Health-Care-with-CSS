@@ -53,5 +53,36 @@ hero {
     border-radius: 55px;
     border: none;
     background: #458FF6;
-    
+
+}
+.service {
+    margin-left: 204px;
+    margin-right: 163px;
+}
+
+.our-service {
+    color: #000;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    padding: 50px;
+}
+
+.service-info {
+    text-align: center;
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+.service-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
