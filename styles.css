@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 204px;
+    margin-right: 163px;
+    padding-top: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #233348;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
