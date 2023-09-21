@@ -6,28 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Health Care</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
     <header>
         <!-- Navbar -->
         <nav>
+            <input id="nav-toggle" type="checkbox">
             <div><span class="logo">Trafalgar</span></div>
-            <div class="menu">
-                <div>Home</div>
-                <div>Find a doctor</div>
-                <div>Apps</div>
-                <div>Testimonials</div>
-                <div>About us</div>
-            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
         </nav>
         <!-- Hero section -->
         <hero>
             <div>
                 <h1 class="heroh1">Virtual healthcare for you</h1>
-                <p>Trafalgar provides progressive, and affordable
-                    healthcare, accessible on mobile and online
-                    for everyone</p>
+                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                 <button class="hbtn">Consult today</button>
             </div>
             <div>
@@ -92,7 +97,7 @@
             </div>
             <div>
                 <h1 class="sec02-h1">Leading healthcare providers</h1>
-                <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for
+                <p class="sec02-p">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for
                     everyone. To us, it’s not just work. We take pride
                     in the solutions we deliver</p>
                 <div class="btn">
