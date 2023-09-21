@@ -338,9 +338,50 @@
      line-height: 28px;
      width: 266px;
      cursor: pointer;
-     
+
  }
- .read img{
-    height: 8px;
-    width: 20px;
+
+ .read img {
+     height: 8px;
+     width: 20px;
+ }
+
+ footer {
+     padding-top: 80px;
+
+ }
+
+ .footer {
+
+     height: 432px;
+     flex-shrink: 0;
+     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+ }
+
+ .footer-info {
+     display: flex;
+     justify-content: space-around;
+     gap: 10px;
+     text-align: left;
+    padding: 50px;
+
+ }
+
+ .footer-h1 {
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .footer-p {
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+    
  }
