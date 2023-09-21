@@ -1,195 +1,283 @@
  /* Navbar section */
-nav {
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 204px;
+     margin-right: 163px;
+     padding-top: 20px;
+ }
+
+ .logo {
+     font-size: 24px;
+     color: #233348;
+ }
+
+ .menu {
+     display: flex;
+     justify-content: space-between;
+     gap: 10px;
+ }
+
+ /* Hero section */
+
+ hero {
+     display: flex;
+     justify-content: space-between;
+     gap: 109px;
+     margin-left: 204px;
+     margin-right: 163px;
+     padding-top: 20px;
+ }
+
+ .himg {
+     width: 450px;
+     height: 450px;
+     padding-top: 84px;
+ }
+
+ .heroh1 {
+     color: #000;
+     font-family: Mulish;
+     padding-top: 191px;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 56px;
+ }
+
+ .hbtn {
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     width: 200px;
+     height: 56px;
+     border-radius: 55px;
+     border: none;
+     background: #458FF6;
+
+ }
+
+ /* Service section */
+ .service {
+     margin-left: 204px;
+     margin-right: 163px;
+     text-align: center;
+     padding-bottom: 50px;
+ }
+
+ .our-service {
+     color: #000;
+     font-family: Mulish;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 56px;
+     text-align: center;
+     padding: 50px;
+ }
+
+ .service-info {
+     text-align: center;
+     color: #7D7987;
+     font-family: Mulish;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 30px;
+     padding-bottom: 80px;
+ }
+
+ .service-options {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     text-align: left;
+
+ }
+
+ .service-options>div {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+     padding: 20px;
+     border-radius: 20px;
+ }
+
+ .service-img {
+     height: 50px;
+     width: 50px;
+ }
+
+ .service-h3 {
+     color: #000;
+     font-family: Mulish;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 56px;
+
+ }
+
+ .service-p {
+     color: #7D7987;
+     font-family: Mulish;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 300;
+     line-height: 28px;
+
+ }
+
+ .btn {
+     text-align: center;
+     padding: 30px;
+ }
+
+ .btn-primary {
+     border-radius: 55px;
+     border: 1.4px solid #458FF6;
+     width: 200px;
+     height: 56px;
+     flex-shrink: 0;
+     color: #458FF6;
+     font-family: Mulish;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 60px;
+
+ }
+
+ /* Some info section */
+
+ .sec02 {
+     display: flex;
+     justify-content: space-between;
+     gap: 109px;
+     margin-left: 204px;
+     margin-right: 163px;
+     padding: 20px;
+ }
+
+ .sec02-img {
+     width: 400px;
+     height: 400px;
+     padding-top: 84px;
+ }
+
+ .sec02-h1 {
+     color: #000;
+     font-family: Mulish;
+     padding-top: 100px;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 56px;
+ }
+
+ .sec03 {
+     display: flex;
+     justify-content: space-between;
+     gap: 109px;
+     margin-left: 204px;
+     margin-right: 163px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .sec03-img {
+     width: 450px;
+     height: 400px;
+     padding-top: 30px;
+ }
+
+ .sec03-h1 {
+     color: #000;
+     font-family: Mulish;
+     padding-top: 70px;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 56px;
+ }
+
+ /* Feedback section */
+ .feedback {
+     border-radius: 24px;
+     background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+     width: 1120px;
+     height: 425px;
+     flex-shrink: 0;
+     margin: auto;
+     
+ }
+
+ .feedback-h3 {
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 48px;
+     text-align: center;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 5px;
+ }
+
+ .feedbackers {
+     display: flex;
+     justify-content: space-evenly;
+     gap: 40px;
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+
+ .feedback-user {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+
+ }
+
+ .feedback-img {
+     height: 150px;
+     width: 150px;
+     padding-top: 50px;
+ }
+
+ .name-h3 {
+     color: #FFF;
+     font-family: Mulish;
+     font-size: 22px;
+     font-style: normal;
+
+     padding-top: 50px;
+
+ }
+
+ .designation {
+     color: rgba(255, 255, 255, 0.85);
+     font-family: Mulish;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 48px;
+
+ }
+
+ .feedback-p {
+     color: rgba(255, 255, 255, 0.90);
+     font-family: Mulish;
+     font-size: 19px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     width: 30%;
+     padding: 20px;
+ }
+ slider {
     display: flex;
-    justify-content: space-between;
-    margin-left: 204px;
-    margin-right: 163px;
-    padding-top: 20px;
-}
-
-.logo {
-    font-size: 24px;
-    color: #233348;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-/* Hero section */
-
-hero {
-    display: flex;
-    justify-content: space-between;
-    gap: 109px;
-    margin-left: 204px;
-    margin-right: 163px;
-    padding-top: 20px;
-}
-
-.himg {
-    width: 450px;
-    height: 450px;
-    padding-top: 84px;
-}
-
-.heroh1 {
-    color: #000;
-    font-family: Mulish;
-    padding-top: 191px;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-}
-
-.hbtn {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    width: 200px;
-    height: 56px;
-    border-radius: 55px;
-    border: none;
-    background: #458FF6;
-
-}
-/* Service section */
-.service {
-    margin-left: 204px;
-    margin-right: 163px;
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.our-service {
-    color: #000;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-    text-align: center;
-    padding: 50px;
-}
-
-.service-info {
-    text-align: center;
-    color: #7D7987;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 30px;
-    padding-bottom: 80px;
-}
-
-.service-options {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    text-align: left;
-
-}
-
-.service-options>div {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: space-evenly;
     padding: 20px;
-    border-radius: 20px;
-}
-
-.service-img {
-    height: 50px;
-    width: 50px;
-}
-
-.service-h3 {
-    color: #000;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-    
-}
-
-.service-p {
-    color: #7D7987;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 28px;
-    
-}
-.btn {
-    text-align: center;
-    padding: 30px;
-}
-.btn-primary {
-    border-radius: 55px;
-    border: 1.4px solid #458FF6;
-    width: 200px;
-    height: 56px;
-    flex-shrink: 0;
-    color: #458FF6;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    
-}
-
-/* Some info section */
-
-.sec02 {
-    display: flex;
-    justify-content: space-between;
-    gap: 109px;
-    margin-left: 204px;
-    margin-right: 163px;
-    padding: 20px;
-}
-.sec02-img {
-    width: 400px;
-    height: 400px;
-    padding-top: 84px;
-}
-.sec02-h1 {
-    color: #000;
-    font-family: Mulish;
-    padding-top: 100px;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-}
-
-.sec03 {
-    display: flex;
-    justify-content: space-between;
-    gap: 109px;
-    margin-left: 204px;
-    margin-right: 163px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.sec03-img {
-    width: 450px;
-    height: 400px;
-    padding-top: 30px;
-}
-.sec03-h1 {
-    color: #000;
-    font-family: Mulish;
-    padding-top: 70px;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 56px;
-}
+ }
