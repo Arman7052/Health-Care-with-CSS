@@ -5,6 +5,7 @@
      margin-left: 204px;
      margin-right: 163px;
      padding-top: 20px;
+
  }
 
  .logo {
@@ -16,7 +17,18 @@
      display: flex;
      justify-content: space-between;
      gap: 10px;
+     cursor: pointer;
  }
+
+ .menu>div:hover {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+     padding: 5px;
+     border-radius: 15px;
+     transition: box-shadow 0.5s ease;
+     transform: scale(1.1);
+     background-color: #67C3F3;
+ }
+
 
  /* Hero section */
 
@@ -57,6 +69,12 @@
      border: none;
      background: #458FF6;
 
+
+ }
+
+ .hbtn:hover {
+     transform: scale(1.2);
+     cursor: pointer;
  }
 
  /* Service section */
@@ -148,6 +166,12 @@
 
  }
 
+ .btn-primary:hover {
+     transform: scale(1.2);
+     cursor: pointer;
+ }
+
+
  /* Some info section */
 
  .sec02 {
@@ -209,7 +233,7 @@
      height: 425px;
      flex-shrink: 0;
      margin: auto;
-     
+
  }
 
  .feedback-h3 {
@@ -276,8 +300,46 @@
      width: 30%;
      padding: 20px;
  }
+
  slider {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 20px;
+ }
+
+ article {
+     padding: 80px;
+ }
+
+ .article-options {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+     text-align: left;
+
+ }
+
+ .article-h3 {
+     color: #000;
+     font-family: Mulish;
+     font-size: 21px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 32px;
+
+ }
+
+ .read {
+     color: #4089ED;
+     font-family: Mulish;
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 28px;
+     width: 266px;
+     
+ }
+ .read img{
+    height: 8px;
+    width: 20px;
  }
